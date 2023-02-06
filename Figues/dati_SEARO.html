@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_be1b1f8f2df0b5ca6c8b1716a4f2828f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_be1b1f8f2df0b5ca6c8b1716a4f2828f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_be1b1f8f2df0b5ca6c8b1716a4f2828f = L.map(
+                "map_be1b1f8f2df0b5ca6c8b1716a4f2828f",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_40be5fdb65e374c03f9498699cedb37a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_be1b1f8f2df0b5ca6c8b1716a4f2828f);
+        
+    
+            var circle_marker_5af1e6f2723f3105cb76ca25b959bca3 = L.circleMarker(
+                [23.684994, 90.356331],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be1b1f8f2df0b5ca6c8b1716a4f2828f);
+        
+    
+        var popup_8ebca76e33e2fe7954aeb0118d39fbdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53a1ad6b28e929102193613fad60c3ce = $(`<div id="html_53a1ad6b28e929102193613fad60c3ce" style="width: 100.0%; height: 100.0%;">Bangladesh</div>`)[0];
+                popup_8ebca76e33e2fe7954aeb0118d39fbdb.setContent(html_53a1ad6b28e929102193613fad60c3ce);
+            
+        
+
+        circle_marker_5af1e6f2723f3105cb76ca25b959bca3.bindPopup(popup_8ebca76e33e2fe7954aeb0118d39fbdb)
+        ;
+
+        
+    
+    
+            var circle_marker_bc904f1f636b649a7c8b0529e744f1d6 = L.circleMarker(
+                [27.514162, 90.433601],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be1b1f8f2df0b5ca6c8b1716a4f2828f);
+        
+    
+        var popup_3787d80ad9bf2433fd5d9efdd15e257f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8318de5cab07fd5d3d75cefa2eb3cf26 = $(`<div id="html_8318de5cab07fd5d3d75cefa2eb3cf26" style="width: 100.0%; height: 100.0%;">Bhutan</div>`)[0];
+                popup_3787d80ad9bf2433fd5d9efdd15e257f.setContent(html_8318de5cab07fd5d3d75cefa2eb3cf26);
+            
+        
+
+        circle_marker_bc904f1f636b649a7c8b0529e744f1d6.bindPopup(popup_3787d80ad9bf2433fd5d9efdd15e257f)
+        ;
+
+        
+    
+    
+            var circle_marker_e08ca35b8f441be13004c821ca82366f = L.circleMarker(
+                [20.593684, 78.96288],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be1b1f8f2df0b5ca6c8b1716a4f2828f);
+        
+    
+        var popup_d3414da663cce268ec2ee0f08fcb5bc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05be800a31c03af17ac474cdee117df8 = $(`<div id="html_05be800a31c03af17ac474cdee117df8" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+                popup_d3414da663cce268ec2ee0f08fcb5bc3.setContent(html_05be800a31c03af17ac474cdee117df8);
+            
+        
+
+        circle_marker_e08ca35b8f441be13004c821ca82366f.bindPopup(popup_d3414da663cce268ec2ee0f08fcb5bc3)
+        ;
+
+        
+    
+    
+            var circle_marker_e59101a0ef8fb5b1c4df2cbdcc53d607 = L.circleMarker(
+                [-0.789275, 113.921327],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be1b1f8f2df0b5ca6c8b1716a4f2828f);
+        
+    
+        var popup_b813f2990a4388367a1b277aa472fa06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5e173b9293aa00bbdc6c73f8e15d414 = $(`<div id="html_f5e173b9293aa00bbdc6c73f8e15d414" style="width: 100.0%; height: 100.0%;">Indonesia</div>`)[0];
+                popup_b813f2990a4388367a1b277aa472fa06.setContent(html_f5e173b9293aa00bbdc6c73f8e15d414);
+            
+        
+
+        circle_marker_e59101a0ef8fb5b1c4df2cbdcc53d607.bindPopup(popup_b813f2990a4388367a1b277aa472fa06)
+        ;
+
+        
+    
+    
+            var circle_marker_93a8040684284726e491b1ec4e366be0 = L.circleMarker(
+                [3.202778, 73.22068],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be1b1f8f2df0b5ca6c8b1716a4f2828f);
+        
+    
+        var popup_1314578e29c23492dec7bb4aac272050 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1e24458154c8f996a3f887e703818d0 = $(`<div id="html_f1e24458154c8f996a3f887e703818d0" style="width: 100.0%; height: 100.0%;">Maldives</div>`)[0];
+                popup_1314578e29c23492dec7bb4aac272050.setContent(html_f1e24458154c8f996a3f887e703818d0);
+            
+        
+
+        circle_marker_93a8040684284726e491b1ec4e366be0.bindPopup(popup_1314578e29c23492dec7bb4aac272050)
+        ;
+
+        
+    
+    
+            var circle_marker_5081d6c7a9e95047915ad6d85ff0a05a = L.circleMarker(
+                [28.394857, 84.124008],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be1b1f8f2df0b5ca6c8b1716a4f2828f);
+        
+    
+        var popup_088df24bf23f8bf9bfc53f820085991a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22c3220407b861be3086274ee0522e26 = $(`<div id="html_22c3220407b861be3086274ee0522e26" style="width: 100.0%; height: 100.0%;">Nepal</div>`)[0];
+                popup_088df24bf23f8bf9bfc53f820085991a.setContent(html_22c3220407b861be3086274ee0522e26);
+            
+        
+
+        circle_marker_5081d6c7a9e95047915ad6d85ff0a05a.bindPopup(popup_088df24bf23f8bf9bfc53f820085991a)
+        ;
+
+        
+    
+    
+            var circle_marker_7cbe49941879db61de6b66474efb537c = L.circleMarker(
+                [7.873054, 80.771797],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be1b1f8f2df0b5ca6c8b1716a4f2828f);
+        
+    
+        var popup_ecb106562947c9c7ef2c96fe7457e71f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22d57c71ef5c3730f9e914b690c18602 = $(`<div id="html_22d57c71ef5c3730f9e914b690c18602" style="width: 100.0%; height: 100.0%;">Sri Lanka</div>`)[0];
+                popup_ecb106562947c9c7ef2c96fe7457e71f.setContent(html_22d57c71ef5c3730f9e914b690c18602);
+            
+        
+
+        circle_marker_7cbe49941879db61de6b66474efb537c.bindPopup(popup_ecb106562947c9c7ef2c96fe7457e71f)
+        ;
+
+        
+    
+    
+            var circle_marker_773e2a48900eb453231376cca2ae40e7 = L.circleMarker(
+                [15.870032, 100.992541],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be1b1f8f2df0b5ca6c8b1716a4f2828f);
+        
+    
+        var popup_954f8ecf0bb08e8a58be688692058c67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f2759be0a49f7a5dbfa4645174d4c67 = $(`<div id="html_9f2759be0a49f7a5dbfa4645174d4c67" style="width: 100.0%; height: 100.0%;">Thailand</div>`)[0];
+                popup_954f8ecf0bb08e8a58be688692058c67.setContent(html_9f2759be0a49f7a5dbfa4645174d4c67);
+            
+        
+
+        circle_marker_773e2a48900eb453231376cca2ae40e7.bindPopup(popup_954f8ecf0bb08e8a58be688692058c67)
+        ;
+
+        
+    
+    
+            var circle_marker_39a3359556058e7f211dc9f49691f1a2 = L.circleMarker(
+                [-8.874217, 125.727539],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be1b1f8f2df0b5ca6c8b1716a4f2828f);
+        
+    
+        var popup_1212237ad70d1cbeee27509e23de239b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d95746014f8796132fda67585f19f358 = $(`<div id="html_d95746014f8796132fda67585f19f358" style="width: 100.0%; height: 100.0%;">Timor-Leste</div>`)[0];
+                popup_1212237ad70d1cbeee27509e23de239b.setContent(html_d95746014f8796132fda67585f19f358);
+            
+        
+
+        circle_marker_39a3359556058e7f211dc9f49691f1a2.bindPopup(popup_1212237ad70d1cbeee27509e23de239b)
+        ;
+
+        
+    
+    
+            var marker_cluster_c97ac021bd9cc512977e06a1f56f49fb = L.markerClusterGroup(
+                {}
+            );
+            map_be1b1f8f2df0b5ca6c8b1716a4f2828f.addLayer(marker_cluster_c97ac021bd9cc512977e06a1f56f49fb);
+        
+    
+            var marker_cf40b3cceb4ebba5c03783ef7d0f4986 = L.marker(
+                [23.684994, 90.356331],
+                {}
+            ).addTo(marker_cluster_c97ac021bd9cc512977e06a1f56f49fb);
+        
+    
+            var icon_5cea219e5c05c105cb0438a1c5ef64bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cf40b3cceb4ebba5c03783ef7d0f4986.setIcon(icon_5cea219e5c05c105cb0438a1c5ef64bb);
+        
+    
+        var popup_9b742fbf3b88182267be74df52c23b34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a32b6fd12dd5fa39b4d7e9ef473f6708 = $(`<div id="html_a32b6fd12dd5fa39b4d7e9ef473f6708" style="width: 100.0%; height: 100.0%;">['Country=', 'Bangladesh', 'Cumulative cases=', 7667, 'Cumulative death=', 168, 'Population=', '167310838']</div>`)[0];
+                popup_9b742fbf3b88182267be74df52c23b34.setContent(html_a32b6fd12dd5fa39b4d7e9ef473f6708);
+            
+        
+
+        marker_cf40b3cceb4ebba5c03783ef7d0f4986.bindPopup(popup_9b742fbf3b88182267be74df52c23b34)
+        ;
+
+        
+    
+    
+            var marker_575298edba123c9536e5d785a4b7bb83 = L.marker(
+                [27.514162, 90.433601],
+                {}
+            ).addTo(marker_cluster_c97ac021bd9cc512977e06a1f56f49fb);
+        
+    
+            var icon_200e9fb5e2cc3aa916196bdfe6e5cb03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_575298edba123c9536e5d785a4b7bb83.setIcon(icon_200e9fb5e2cc3aa916196bdfe6e5cb03);
+        
+    
+        var popup_521054499a0bf87d4ec7371561cd2c09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a1ffb21c9328299b2476d89ee2b99ed = $(`<div id="html_8a1ffb21c9328299b2476d89ee2b99ed" style="width: 100.0%; height: 100.0%;">['Country=', 'Bhutan', 'Cumulative cases=', 7, 'Cumulative death=', 0, 'Population=', '727145']</div>`)[0];
+                popup_521054499a0bf87d4ec7371561cd2c09.setContent(html_8a1ffb21c9328299b2476d89ee2b99ed);
+            
+        
+
+        marker_575298edba123c9536e5d785a4b7bb83.bindPopup(popup_521054499a0bf87d4ec7371561cd2c09)
+        ;
+
+        
+    
+    
+            var marker_37f05f3e9a505ef92e5ac90648ebc04a = L.marker(
+                [20.593684, 78.96288],
+                {}
+            ).addTo(marker_cluster_c97ac021bd9cc512977e06a1f56f49fb);
+        
+    
+            var icon_b55affab009c2d19de1c47c06f855979 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_37f05f3e9a505ef92e5ac90648ebc04a.setIcon(icon_b55affab009c2d19de1c47c06f855979);
+        
+    
+        var popup_ef2dd11d2f9d768f990d78d051065c77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a052a31b545e8089d986ab2c1607cada = $(`<div id="html_a052a31b545e8089d986ab2c1607cada" style="width: 100.0%; height: 100.0%;">['Country=', 'India', 'Cumulative cases=', 33050, 'Cumulative death=', 1074, 'Population=', '1366417754']</div>`)[0];
+                popup_ef2dd11d2f9d768f990d78d051065c77.setContent(html_a052a31b545e8089d986ab2c1607cada);
+            
+        
+
+        marker_37f05f3e9a505ef92e5ac90648ebc04a.bindPopup(popup_ef2dd11d2f9d768f990d78d051065c77)
+        ;
+
+        
+    
+    
+            var marker_a61072dc3ffd7e5cd1bcb2ad62d54f1c = L.marker(
+                [-0.789275, 113.921327],
+                {}
+            ).addTo(marker_cluster_c97ac021bd9cc512977e06a1f56f49fb);
+        
+    
+            var icon_70277b98459bdb1f1dbaf659dcc65f93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a61072dc3ffd7e5cd1bcb2ad62d54f1c.setIcon(icon_70277b98459bdb1f1dbaf659dcc65f93);
+        
+    
+        var popup_3f7bfc2fdbe648da225a0c099a39975a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c8df025e22917b24f60ca34c1aaf71c = $(`<div id="html_1c8df025e22917b24f60ca34c1aaf71c" style="width: 100.0%; height: 100.0%;">['Country=', 'Indonesia', 'Cumulative cases=', 10118, 'Cumulative death=', 792, 'Population=', '270203917']</div>`)[0];
+                popup_3f7bfc2fdbe648da225a0c099a39975a.setContent(html_1c8df025e22917b24f60ca34c1aaf71c);
+            
+        
+
+        marker_a61072dc3ffd7e5cd1bcb2ad62d54f1c.bindPopup(popup_3f7bfc2fdbe648da225a0c099a39975a)
+        ;
+
+        
+    
+    
+            var marker_9db6598db49b4b518d34ec2a16edfef3 = L.marker(
+                [3.202778, 73.22068],
+                {}
+            ).addTo(marker_cluster_c97ac021bd9cc512977e06a1f56f49fb);
+        
+    
+            var icon_b86d030ff92dade2faf32a73364d324e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9db6598db49b4b518d34ec2a16edfef3.setIcon(icon_b86d030ff92dade2faf32a73364d324e);
+        
+    
+        var popup_6582319a98b90548e6ea3b673134863a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c178822a34390e924e67fab552c4d127 = $(`<div id="html_c178822a34390e924e67fab552c4d127" style="width: 100.0%; height: 100.0%;">['Country=', 'Maldives', 'Cumulative cases=', 396, 'Cumulative death=', 0, 'Population=', '530953']</div>`)[0];
+                popup_6582319a98b90548e6ea3b673134863a.setContent(html_c178822a34390e924e67fab552c4d127);
+            
+        
+
+        marker_9db6598db49b4b518d34ec2a16edfef3.bindPopup(popup_6582319a98b90548e6ea3b673134863a)
+        ;
+
+        
+    
+    
+            var marker_96ae46dda5f57b449eb771479052feea = L.marker(
+                [28.394857, 84.124008],
+                {}
+            ).addTo(marker_cluster_c97ac021bd9cc512977e06a1f56f49fb);
+        
+    
+            var icon_6b9d95a59e82370ecc156cd61c5b76ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_96ae46dda5f57b449eb771479052feea.setIcon(icon_6b9d95a59e82370ecc156cd61c5b76ab);
+        
+    
+        var popup_b73a4de178cfa35edb2a77d7e2804070 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc31347bbed469442d1f3bc9221f950d = $(`<div id="html_dc31347bbed469442d1f3bc9221f950d" style="width: 100.0%; height: 100.0%;">['Country=', 'Nepal', 'Cumulative cases=', 57, 'Cumulative death=', 0, 'Population=', '28608710']</div>`)[0];
+                popup_b73a4de178cfa35edb2a77d7e2804070.setContent(html_dc31347bbed469442d1f3bc9221f950d);
+            
+        
+
+        marker_96ae46dda5f57b449eb771479052feea.bindPopup(popup_b73a4de178cfa35edb2a77d7e2804070)
+        ;
+
+        
+    
+    
+            var marker_13682e9a0a8dd376941aee758b8880f3 = L.marker(
+                [7.873054, 80.771797],
+                {}
+            ).addTo(marker_cluster_c97ac021bd9cc512977e06a1f56f49fb);
+        
+    
+            var icon_0288730cd7020a9d87a0a9c9cf629659 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_13682e9a0a8dd376941aee758b8880f3.setIcon(icon_0288730cd7020a9d87a0a9c9cf629659);
+        
+    
+        var popup_aaa530fcaaac32409ad730895628b08d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13380bcb36e9eb92f0b406cbc76f3b40 = $(`<div id="html_13380bcb36e9eb92f0b406cbc76f3b40" style="width: 100.0%; height: 100.0%;">['Country=', 'Sri Lanka', 'Cumulative cases=', 649, 'Cumulative death=', 7, 'Population=', '21803000']</div>`)[0];
+                popup_aaa530fcaaac32409ad730895628b08d.setContent(html_13380bcb36e9eb92f0b406cbc76f3b40);
+            
+        
+
+        marker_13682e9a0a8dd376941aee758b8880f3.bindPopup(popup_aaa530fcaaac32409ad730895628b08d)
+        ;
+
+        
+    
+    
+            var marker_d4ff1608607e50810d37f2e4128ab2f4 = L.marker(
+                [15.870032, 100.992541],
+                {}
+            ).addTo(marker_cluster_c97ac021bd9cc512977e06a1f56f49fb);
+        
+    
+            var icon_c8a2ca62690c920155cf0e809d6169d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d4ff1608607e50810d37f2e4128ab2f4.setIcon(icon_c8a2ca62690c920155cf0e809d6169d4);
+        
+    
+        var popup_03bd0a0c710cddd46045a71a1e9f163c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c23b12635703d6a9eb297278cb519653 = $(`<div id="html_c23b12635703d6a9eb297278cb519653" style="width: 100.0%; height: 100.0%;">['Country=', 'Thailand', 'Cumulative cases=', 2954, 'Cumulative death=', 54, 'Population=', '69625582']</div>`)[0];
+                popup_03bd0a0c710cddd46045a71a1e9f163c.setContent(html_c23b12635703d6a9eb297278cb519653);
+            
+        
+
+        marker_d4ff1608607e50810d37f2e4128ab2f4.bindPopup(popup_03bd0a0c710cddd46045a71a1e9f163c)
+        ;
+
+        
+    
+    
+            var marker_6ea585a93e4538f90e9d51d548abe062 = L.marker(
+                [-8.874217, 125.727539],
+                {}
+            ).addTo(marker_cluster_c97ac021bd9cc512977e06a1f56f49fb);
+        
+    
+            var icon_f1a73bf53fddf1cf1ba65f16abcc9dd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6ea585a93e4538f90e9d51d548abe062.setIcon(icon_f1a73bf53fddf1cf1ba65f16abcc9dd1);
+        
+    
+        var popup_ec7f3e7588cc04891c9cde36543445de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38eca3c3d324ea75526346ca70535164 = $(`<div id="html_38eca3c3d324ea75526346ca70535164" style="width: 100.0%; height: 100.0%;">['Country=', 'Timor-Leste', 'Cumulative cases=', 24, 'Cumulative death=', 0, 'Population=', '3500000']</div>`)[0];
+                popup_ec7f3e7588cc04891c9cde36543445de.setContent(html_38eca3c3d324ea75526346ca70535164);
+            
+        
+
+        marker_6ea585a93e4538f90e9d51d548abe062.bindPopup(popup_ec7f3e7588cc04891c9cde36543445de)
+        ;
+
+        
+    
+</script>
+</html>
